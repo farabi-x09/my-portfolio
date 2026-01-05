@@ -16,11 +16,17 @@
     border-radius: 5px;
     color: white;
     font-size: 20px;
+    font-weight: bold;
 }
 
 header{
     background-color:#FFF8F3 ;
-    border: 2px solid #E2B89A;
+    /* border: 2px solid #E2B89A; */
+    background-image: url(images/developer.png) , url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:left center, right bottom ;
+    
+
 }
 nav{
     /* border: 2px solid black; */
@@ -28,7 +34,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 70%;
-    margin: 50px auto;
+    margin: 0px auto;
+    padding: 20px 0px ;
 
 }
 nav li{
@@ -54,4 +61,65 @@ nav h2{
 }
 ul{
     align-items: center;
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    /* max-width: 1200px; */
+
+    /* margin: 0px 38px 0px 230px ; */
+    margin-left: 230px ;
+    /* margin-right: 0px  ; */
+    
+   
+}
+section h2{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+section h1{
+    font-weight: bold;
+    font-size: 85px;
+    color: #181818;
+}
+section p{
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+    margin: 20px 0px ;
+}
+.head-info{
+    /* border: 2px solid red; */
+    max-width: 800px;
+}
+/* .head-buttons{
+    justify-content: space-between;
+    display: flex;
+    gap: 30px;
+} */
+
+.head-photo{
+    margin-right: 50px;
+    
+}
+.head-photo img{
+    vertical-align: middle
+}
+ #DC{
+    margin-right: 20px;
+ }
+.contact{
+    padding: 20px 30px ;
+    background-color:#FFF8F3 ;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
 }
