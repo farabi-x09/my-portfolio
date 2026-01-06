@@ -19,6 +19,7 @@
     font-weight: bold;
 }
 
+
 header{
     background-color:#FFF8F3 ;
     /* border: 2px solid #E2B89A; */
@@ -64,7 +65,7 @@ ul{
 }
 
 
-section{
+.head-content{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -122,4 +123,52 @@ section p{
     color: #FD6E0A;
     font-size: 20px;
     font-weight: bold;
+}
+
+/* content_section */
+
+.about-me{
+    background-color: #FFF8F3;
+    /* border: 2px solid black; */
+    align-items: center;
+    padding:130px 155px ;
+    max-width: 1600px;
+    margin: 130px 230px;
+   
+}
+.all-about{
+    margin: 110px 130px ;
+    align-items: center;
+    /* border: 1px solid rgb(231, 26, 122); */
+    /* max-width: 1200px; */
+}
+
+.about-heading{
+    /* align-items: center; */
+    text-align: center;
+}
+.about-heading h2{
+    font-size: 55px;
+    color: #181818;
+}
+.about-heading p{
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+    margin: 20px 0px ;
+}
+.about_foter{
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    gap: 15px;
+}
+.about_foter p{
+    font-size: 22px;
+    color: #757575;
+    line-height: 0px;
+}
+.about_foter h4{
+    font-size: 25px;
+    color: #474747;
 }
