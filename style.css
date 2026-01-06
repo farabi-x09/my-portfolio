@@ -148,7 +148,7 @@ section p{
     text-align: center;
 }
 .about-heading h2{
-    font-size: 55px;
+    font-size: 45px;
     color: #181818;
 }
 .about-heading p{
@@ -172,3 +172,107 @@ section p{
     font-size: 25px;
     color: #474747;
 }
+
+/* main skill section */
+.main_skill{
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+
+
+
+.main_skill_2 .skill_heading{
+    margin: 0px auto; ;
+    align-items: center;
+    text-align: center;
+    width: 900px;
+    margin-bottom: 50px;
+} 
+.skill_heading h2{
+    font-size: 45px;
+    color: #181818;
+}
+..skill_heading p{
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+    margin: 20px 0px ;
+}
+ .main_skill_2 .skill_foter{
+    width: 70%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+ }
+ .skill_foter .card{
+    padding: 30px;
+    /* border: 1px solid #E2B89A; */
+    border-radius: 10px;
+    margin: 0px 15px ;
+    width: 300px;
+    box-shadow: 0px 6px 50px 0 #0000003d ;
+ }
+ .card h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 15px 0px ;
+ }
+ .card img{
+    margin-bottom: 15px ;
+ }
+    .card p{
+        font-size: 16px;
+        color: #757575;
+        line-height: 30px;
+    }
+    #resume{
+        padding-top: 130px;
+
+
+    }
+   #resume .section_heading {
+        /* margin: 0 auto; */
+        /* border: 1px solid black; */
+        /* align-items: center; */
+        text-align: center;
+
+    }
+    
+    #resume .resume_container{
+        width: 72%;
+        max-width: 1200px;
+        margin: 115px auto 0;
+        display: flex;
+        gap: 25px;
+    
+    }
+    .resume_container .section_title{
+        color: #474747;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .resume_card{
+        max-width: 550px;
+        margin-right: 50px;
+    }
+    .resume_card .card_title{
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #474747;
+
+    }
+    .resume_card .card_info{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #757575;
+    }
+    .resume_card  .card_text{
+        font-size: 16px;
+        line-height: 28px;
+        color: #757575;
+    }
+    .resume_container hr{
+        margin:30px 0 ;
+    }
